@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Contact Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 <link href="cantactUsStyle.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+	  <h1>Contact Us</h1>
+	  <form action="/action_page.php">
+		<span>First name:</span>  
+		<input type="text" name="firstname" ><br>
+		
+		<span>Last name:</span>
+		<input type="text" name="lastname" ><br>
+		
+		<span>Email:</span>
+		<input type="text" name="email"><br>
+		<span>Town:</span>
+		<select name = "town">
+		  <option value="1"> Sofia </option>
+		  <option value="2"> Burgas </option>
+		  <option value="3"> Plovdic </option>
+		  <option value="4"> Ruse </option>
+		  <option value="5"> Varna </option>
+		</select>
+		<br>
+		
+		<input type="submit" value="Submit">
+	  </form> 
+    </body>
+</html>
